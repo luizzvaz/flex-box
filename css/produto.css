@@ -1,0 +1,5 @@
+.produto {
+    margin-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+}

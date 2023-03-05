@@ -1,13 +1,174 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex-Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-    <p>asda</p>
+    <header>
+        <div class="horario-bg">
+            <div class="horario container ">
+                <p class="texto-p">Seg / Sex - 08:00 às 18:00</p>
+                <a class="texto-p" href="tel:++55219999-9999">+55 21 9999-9999</a>
+                <p class="texto-p">Av. Ali Perto, 330, Botafogo - RJ</p>
+            </div>
+        </div>
+        <div class="header-bg">
+            <div class="header container">
+                <a class="texto-g" href="./">Flexblog</a>
+                <nav aria-label="primaria ">
+                    <a href="#sobre">Sobre </a>
+                    <a href="#produto">Produtos </a>
+                    <a href="#preco">Preço </a>
+                    <a href="#qualidade">Qualidade </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="sobre container">
+        <h1 class="titulo">Novos valores e <br>
+            Propriedades de CSS</h1>
+        <div class="sobre-flex">
+            <div class="sobre-conteudo" id="sobre">
+                <h2>Sobre</h2>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a
+                    correta previsão das condições inegavelmente apropriadas objetivos.</p>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente
+                    a correta previsão das condições inegavelmente apropriadas objetivos.
+                </p>
+            </div>
+            <div class="sobre-img1">
+                <img src="./img/sobre1.jpg" alt="mulher">
+            </div>
+            <div class="sobre-img2">
+                <img src="./img/sobre2.jpg" alt="pintando">
+            </div>
+
+
+        </div>
+    </main>
+    <article class="produto container">
+        <h2 id="produto">Produtos</h2>
+        <div class="produto-item purple">
+            <h3>Purple</h3>
+            <div class="produto-img"><img src="./img/produtos1.jpg" alt="">
+            </div>
+        </div>
+        <div class="produto-item pink">
+            <h3>Pink</h3>
+            <div class="produto-img"><img src="./img/produtos2.jpg" alt="">
+            </div>
+        </div>
+        <div class="produto-item blue">
+            <h3>Blue</h3>
+            <div class="produto-img"><img src="./img/produtos3.jpg" alt="">
+            </div>
+        </div>
+    </article>
+
+    <article id="preco" class="planos">
+        <div class="planos-item">
+            <h2>Cobre</h2>
+            <p><span>R$</span>19</p>
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Conteúdo Secreto</li>
+                <li>Suporte 24h</li>
+            </ul>
+            <a class="BTN" href="#">COMPRAR</a>
+        </div>
+        <div class="planos-item">
+            <h2>Prata</h2>
+            <p><span>R$</span>39</p>
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Conteúdo Secreto</li>
+                <li>Suporte 24h</li>
+                <li>Compra Exclusiva</li>
+            </ul>
+            <a class="BTN" href="#">COMPRAR</a>
+        </div>
+        <div class="planos-item">
+            <h2>Ouro</h2>
+            <p><span>R$</span>79</p>
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Conteúdo Secreto</li>
+                <li>Suporte 24h</li>
+                <li>Compra Exclusiva</li>
+                <li>Download dos Itens</li>
+            </ul>
+            <a class="BTN" href="#">COMPRAR</a>
+        </div>
+    </article>
+
+    <section class="Qualidade container" id="qualidade">
+        <div class="qualidade-item">
+            <h2>Inteligente</h2>
+            <p>
+                O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a
+                correta previsão.
+            </p>
+        </div>
+        <div class="qualidade-item">
+            <h2>Compacto</h2>
+            <p>
+                O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a
+                correta previsão das condições inegavelmente.
+            </p>
+        </div>
+        <div class="qualidade-item">
+            <h2>Econômico</h2>
+            <p>
+                O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a
+                correta previsão.
+            </p>
+        </div>
+        <div class="qualidade-item">
+            <h2>Transparente</h2>
+            <p>
+                O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a
+                correta previsão.
+            </p>
+        </div>
+        <div class="qualidade-item">
+            <h2>Opaco</h2>
+            <p>
+                O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a
+                correta previsão das condições inegavelmente.
+            </p>
+        </div>
+        <div class="qualidade-item">
+            <h2>Sustentável</h2>
+            <p>
+                O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a
+                correta previsão .
+            </p>
+        </div>
+    </section>
+    <div class="assinar">
+        <div>
+            <h2>Newsletter</h2>
+            <p>assine e fique por dentro das novidades</p>
+        </div>
+        <form class="form">
+            <input type="text" placeholder="Seu email">
+            <button type="submit">Assianar</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>FlexBlog © Todos os direitos reservados.</p>
+    </footer>
 </body>
+
 </html>

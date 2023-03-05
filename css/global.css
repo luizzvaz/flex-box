@@ -1,0 +1,29 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.texto-p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.texto-m {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.texto-g {
+    font-size: 2.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.titulo {
+    font: 600 3rem/1.2 'Nunito Sans', sans-serif;
+
+}

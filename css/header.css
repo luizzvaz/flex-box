@@ -1,0 +1,45 @@
+.horario-bg {
+    background-color: darkblue;
+    color: white;
+}
+
+.header-bg {
+    background-color: rgb(24, 143, 229);
+}
+
+.horario {
+    padding: 0.5rem 0;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.horario a {
+    padding: 0 0.75rem;
+}
+
+.horario a:hover {
+    color: rgb(140, 140, 220);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    color: white;
+}
+
+.header nav {
+    font: 600 1.25rem/1.2 'Nunito Sans', sans-serif;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.header nav a {
+    padding: 10px;
+}
+
+.header nav a:hover {
+    color: darkblue;
+}
