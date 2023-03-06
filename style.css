@@ -8,3 +8,9 @@ font-family: 'Nunito Sans', sans-serif;
 @import "./css/header.css";
 @import "./css/sobre.css";
 @import "./css/produto.css";
+@import "./css/preco.css";
+
+
+:root {
+    --cor-0: white;
+}

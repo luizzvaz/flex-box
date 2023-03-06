@@ -12,10 +12,18 @@
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.horario p {
+    color: var(--cor-0);
+    margin: 0 10px;
 }
 
 .horario a {
     padding: 0 0.75rem;
+    margin: 0 10px;
+
 }
 
 .horario a:hover {
@@ -25,19 +33,29 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 0;
-    color: white;
+    padding: 1.25rem 0;
+    align-items: center;
+    color: var(--cor-0);
+    flex-wrap: wrap;
 }
 
-.header nav {
+.header>a {
+    margin: 0 10px;
+}
+
+.header ul {
     font: 600 1.25rem/1.2 'Nunito Sans', sans-serif;
     display: flex;
     gap: 1rem;
     align-items: center;
+    flex-wrap: wrap;
+    margin: 0 10px;
 }
 
 .header nav a {
     padding: 10px;
+    color: var(--cor-0);
+    margin: 0 10px;
 }
 
 .header nav a:hover {

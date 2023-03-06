@@ -22,10 +22,12 @@
             <div class="header container">
                 <a class="texto-g" href="./">Flexblog</a>
                 <nav aria-label="primaria ">
-                    <a href="#sobre">Sobre </a>
-                    <a href="#produto">Produtos </a>
-                    <a href="#preco">Preço </a>
-                    <a href="#qualidade">Qualidade </a>
+                    <ul>
+                        <li><a href="#sobre">Sobre </a></li>
+                        <li><a href="#produto">Produtos </a></li>
+                        <li><a href="#preco">Preço </a></li>
+                        <li><a href="#qualidade">Qualidade </a></li>
+                    </ul>
                 </nav>
             </div>
         </div>
@@ -36,46 +38,50 @@
             Propriedades de CSS</h1>
         <div class="sobre-flex">
             <div class="sobre-conteudo" id="sobre">
-                <h2>Sobre</h2>
-                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a
+                <h2 class="texto-g">Sobre</h2>
+                <p class="texto-m1 ">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta
+                    positivamente a
                     correta previsão das condições inegavelmente apropriadas objetivos.</p>
-                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente
+                <p class="texto-m1 ">O que temos que ter sempre em mente é que a determinação clara de objetivos afeta
+                    positivamente
                     a correta previsão das condições inegavelmente apropriadas objetivos.
                 </p>
             </div>
-            <div class="sobre-img1">
+            <div class="sobre-img">
                 <img src="./img/sobre1.jpg" alt="mulher">
             </div>
-            <div class="sobre-img2">
+            <div class="sobre-img">
                 <img src="./img/sobre2.jpg" alt="pintando">
             </div>
 
 
         </div>
     </main>
-    <article class="produto container">
-        <h2 id="produto">Produtos</h2>
-        <div class="produto-item purple">
-            <h3>Purple</h3>
-            <div class="produto-img"><img src="./img/produtos1.jpg" alt="">
+    <section class="produto container" id="produto">
+        <h2 class="texto-g">Produtos</h2>
+        <div class="produto-container">
+            <div class="produto-item purple">
+                <h3 class="texto-g">Purple</h3>
+                <div class="produto-img"><img src="./img/produtos1.jpg" alt="">
+                </div>
+            </div>
+            <div class="produto-item pink">
+                <h3 class="texto-g">Pink</h3>
+                <div class="produto-img"><img src="./img/produtos2.jpg" alt="">
+                </div>
+            </div>
+            <div class="produto-item blue">
+                <h3 class="texto-g">Blue</h3>
+                <div class="produto-img"><img src="./img/produtos3.jpg" alt="">
+                </div>
             </div>
         </div>
-        <div class="produto-item pink">
-            <h3>Pink</h3>
-            <div class="produto-img"><img src="./img/produtos2.jpg" alt="">
-            </div>
-        </div>
-        <div class="produto-item blue">
-            <h3>Blue</h3>
-            <div class="produto-img"><img src="./img/produtos3.jpg" alt="">
-            </div>
-        </div>
-    </article>
+    </section>
 
-    <article id="preco" class="planos">
+    <section id="preco" class="planos">
         <div class="planos-item">
             <h2>Cobre</h2>
-            <p><span>R$</span>19</p>
+            <p><sup>R$</sup>19</p>
             <ul>
                 <li>Planos Ilimitados</li>
                 <li>Acesso Restrito</li>
@@ -86,7 +92,7 @@
         </div>
         <div class="planos-item">
             <h2>Prata</h2>
-            <p><span>R$</span>39</p>
+            <p><sup>R$</sup>39</p>
             <ul>
                 <li>Planos Ilimitados</li>
                 <li>Acesso Restrito</li>
@@ -98,7 +104,7 @@
         </div>
         <div class="planos-item">
             <h2>Ouro</h2>
-            <p><span>R$</span>79</p>
+            <p><sup>R$</sup>79</p>
             <ul>
                 <li>Planos Ilimitados</li>
                 <li>Acesso Restrito</li>
@@ -109,7 +115,7 @@
             </ul>
             <a class="BTN" href="#">COMPRAR</a>
         </div>
-    </article>
+    </section>
 
     <section class="Qualidade container" id="qualidade">
         <div class="qualidade-item">

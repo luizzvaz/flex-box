@@ -1,6 +1,7 @@
 .sobre {
     margin-top: 60px;
     margin-bottom: 80px;
+    padding: 0 10px;
 }
 
 .sobre h1 {
@@ -11,6 +12,20 @@
 .sobre-flex {
     display: flex;
     padding: 60px 0;
-    gap: 2rem;
     border-bottom: 2px solid rgb(55, 55, 227);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.sobre-conteudo {
+    flex: 2;
+}
+
+.sobre-conteudo h2 {
+    margin-bottom: 1.25rem;
+}
+
+.sobre-conteudo p {
+    margin-bottom: 1rem;
+
 }
