@@ -1,0 +1,46 @@
+.qualidade {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.qualidade-item {
+    flex: 1;
+    min-width: 260px;
+    margin: 20px 15px;
+
+}
+
+.qualidade-item h2 {
+    margin-bottom: 1rem;
+}
+
+.qualidade-item h2::before {
+    content: " ";
+    display: inline-block;
+    height: 2rem;
+    width: 8px;
+    background-color: black;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.qualidade-item:nth-child(4) h2::before,
+.qualidade-item:nth-child(1) h2::before {
+    background-color: rgb(176, 46, 227);
+    ;
+}
+
+.qualidade-item:nth-child(2) h2::before,
+.qualidade-item:nth-child(5) h2::before {
+    background-color: rgb(227, 42, 119);
+    ;
+}
+
+.qualidade-item:nth-child(3) h2::before,
+.qualidade-item:nth-child(6) h2::before {
+    background-color: rgb(19, 212, 226);
+    ;
+}

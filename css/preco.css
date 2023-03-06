@@ -1,3 +1,92 @@
 .planos {
-    background-color: aqua;
+    background-color: #f7f7f7;
+    padding: 60px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+
+.planos-item {
+    flex: 2;
+    border: 6px solid #ffffff;
+}
+
+.planos-item h2 {
+    padding: 20px 15px;
+    margin: 20px auto 0 auto;
+    color: #8d8d8d;
+}
+
+.planos-item p {
+    font-size: 2rem;
+    padding: 20px 15px;
+    margin: 30px auto;
+    font-family: "Nunito", sans-serif;
+    border-top: 6px solid #ffffff;
+    border-bottom: 6px solid #ffffff;
+    max-width: 300px;
+}
+
+.planos-item p sup {
+    font-size: 1rem;
+}
+
+.planos-item ul {
+    max-width: 300px;
+    min-width: 260px;
+    margin: 0 auto;
+}
+
+.planos-item ul li {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    color: #8d8d8d;
+
+}
+
+.planos-item ul li::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(50, 112, 235);
+    border-radius: 50%;
+}
+
+.BTN {
+    margin: 20px auto;
+    padding: 16px 20px;
+    display: block;
+    border: 6px solid black;
+    max-width: 300px;
+
+}
+
+.BTN:hover {
+    color: rgb(50, 112, 235);
+    border-color: rgb(50, 112, 235);
+}
+
+@media (max-width:750px) {
+    .planos-item:last-child {
+        order: -2;
+    }
+
+    .planos-item:nth-child(2) {
+        order: -1;
+    }
+
+
+}
+
+@media (max-width:350px) {
+    .planos {
+        padding: 60px 20px;
+    }
 }
