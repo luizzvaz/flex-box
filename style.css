@@ -10,6 +10,7 @@ font-family: 'Nunito Sans', sans-serif;
 @import "./css/produto.css";
 @import "./css/preco.css";
 @import "./css/qualidade.css";
+@import "./css/assinar.css";
 
 
 :root {

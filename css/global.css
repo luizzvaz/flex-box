@@ -47,3 +47,13 @@
         font-size: 1.85rem;
     }
 }
+
+footer {
+    background-color: blue;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    color: white;
+}

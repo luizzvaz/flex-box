@@ -1,0 +1,59 @@
+.assinar {
+    background-color: #f8f8f8;
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.assinar h2 {
+    color: #8f8f8f;
+}
+
+.form {
+    border-radius: 5px;
+
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.form input {
+    border-color: rgb(56, 56, 236);
+    border-style: none;
+
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 3px solid rgb(56, 56, 236);
+}
+
+.form button {
+    font-weight: bolder;
+    background-color: rgb(56, 56, 236);
+    border: 2px solid rgb(56, 56, 236);
+    flex: 1;
+    padding: 10px;
+}
+
+.form button:hover {
+    border-color: rgb(112, 112, 235);
+    color: white;
+}
+
+@media (max-width: 350px) {
+    .form {
+        margin-left: 0;
+        padding: 0.5rem;
+    }
+
+    .form input {
+        width: 260px;
+
+    }
+
+    .texto-m1 {
+        font-size: 1rem;
+    }
+}
